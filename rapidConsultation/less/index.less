@@ -1,0 +1,224 @@
+// out: ../css/
+@import "./base.less";
+
+html {
+    background-color: @baseBgColor;
+    font-family: @fontBaseFamily;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-container .head-container {
+    height: .getRem(88) [@return];
+    width: .getRem(750)[@return];
+    display: flex;
+    align-items: center;
+    // background-color: aqua;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .arrow {
+            width: .getRem(240) [@return];
+            height: .getRem(88) [@return];
+
+            a {
+                display: flex;
+                width: .getRem(24)[@return];
+                height: .getRem(48)[@return];
+                padding: .getRem(20)[@return] .getRem(184)[@return] .getRem(20)[@return] .getRem(32)[@return];
+
+                i {
+                    font-size: .getRem(34)[@return];
+                    padding: .getRem(7)[@return] .getRem(4)[@return] .getRem(7)[@return] .getRem(2)[@return];
+                    color: #000000;
+                }
+            }
+
+        }
+
+        .title {
+            width: .getRem(160) [@return];
+            height: .getRem(88)[@return];
+            margin: 0 .getRem(145)[@return] 0 .getRem(55)[@return];
+
+            p {
+
+                width: .getRem(136)[@return];
+                height: .getRem(48)[@return];
+                font-size: .getRem(34)[@return];
+                margin: .getRem(20)[@return] .getRem(12)[@return];
+
+            }
+        }
+
+        .record a {
+            display: flex;
+            width: .getRem(120)[@return];
+            height: .getRem(42)[@return];
+            font-size: .getRem(30)[@return];
+            color: #2CB5A5;
+            padding: .getRem(23)[@return] .getRem(30)[@return] .getRem(23)[@return] .getRem(0)[@return];
+        }
+    }
+}
+
+
+.page-container .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: .getRem(480)[@return];
+        height: .getRem(412)[@return];
+        margin: .getRem(61)[@return] .getRem(135)[@return] .getRem(36)[@return] .getRem(135)[@return];
+    }
+
+    p {
+        font-size: .getRem(32)[@return];
+        line-height: .getRem(50)[@return];
+        text-align: left;
+        margin: 0 .getRem(214)[@return];
+
+        span {
+            color: #16C2A3;
+        }
+    }
+
+    .content-container {
+        width: .getRem(690)[@return];
+        height: .getRem(156)[@return];
+        border: 1px solid #EDEDED;
+        border-radius: .getRem(8)[@return];
+        padding-right: .getRem(20)[@return];
+        margin: .getRem(67)[@return] .getRem(30)[@return] .getRem(30)[@return] .getRem(30)[@return];
+
+        .content-main {
+            display: flex;
+            align-items: center;
+            width: .getRem(395)[@return];
+            height: .getRem(136)[@return];
+            margin: .getRem(10)[@return] .getRem(265)[@return].getRem(10)[@return] .getRem(30)[@return];
+
+            .avatar {
+                width: .getRem(80)[@return];
+                height: .getRem(80)[@return];
+                border-radius: 50%;
+                margin: .getRem(38)[@return] .getRem(27)[@return] .getRem(38)[@return] .getRem(30)[@return];
+            }
+
+            .desc-container {
+                display: flex;
+                flex-direction: column;
+                width: .getRem(288)[@return];
+                height: .getRem(96)[@return];
+                margin: .getRem(30)[@return] .getRem(211)[@return] .getRem(30)[@return] 0;
+
+                .title {
+                    width: .getRem(194)[@return];
+                    font-size: .getRem(32)[@return];
+                    line-height: .getRem(48)[@return];
+                    text-align: left;
+                    margin: 0 .getRem(94)[@return] .getRem(8)[@return] 0;
+                    color: #3c3e42;
+                }
+
+                .desc {
+                    width: .getRem(288)[@return];
+                    font-size: .getRem(26)[@return];
+                    line-height: .getRem(40)[@return];
+                    text-align: left;
+                    margin: 0 .getRem(94)[@return] .getRem(8)[@return] 0;
+                    color: #848484;
+                }
+
+            }
+
+            a {
+                width: .getRem(34)[@return];
+                height: .getRem(34)[@return];
+                margin: .getRem(66)[@return] .getRem(20)[@return] .getRem(56)[@return] .getRem(0)[@return];
+
+                i {
+                    font-size: .getRem(34)[@return];
+                    color: #C3C3C5;
+
+                }
+            }
+        }
+    }
+
+
+
+    .content-container_new {
+        width: .getRem(690)[@return];
+        height: .getRem(156)[@return];
+        border: 1px solid #EDEDED;
+        border-radius: .getRem(8)[@return];
+        padding-right: .getRem(20)[@return];
+        margin: .getRem(0)[@return] .getRem(30)[@return] .getRem(30)[@return] .getRem(30)[@return];
+
+        .content-main {
+            display: flex;
+            align-items: center;
+            width: .getRem(395)[@return];
+            height: .getRem(136)[@return];
+            margin: .getRem(10)[@return] .getRem(265)[@return].getRem(10)[@return] .getRem(30)[@return];
+
+            .avatar {
+                width: .getRem(80)[@return];
+                height: .getRem(80)[@return];
+                border-radius: 50%;
+                margin: .getRem(38)[@return] .getRem(27)[@return] .getRem(38)[@return] .getRem(30)[@return];
+            }
+
+            .desc-container {
+                display: flex;
+                flex-direction: column;
+                width: .getRem(288)[@return];
+                height: .getRem(96)[@return];
+                margin: .getRem(30)[@return] .getRem(211)[@return] .getRem(30)[@return] 0;
+
+                .title {
+                    width: .getRem(194)[@return];
+                    font-size: .getRem(32)[@return];
+                    line-height: .getRem(48)[@return];
+                    text-align: left;
+                    margin: 0 .getRem(94)[@return] .getRem(8)[@return] 0;
+                    color: #3c3e42;
+                }
+
+                .desc {
+                    width: .getRem(288)[@return];
+                    font-size: .getRem(26)[@return];
+                    line-height: .getRem(40)[@return];
+                    text-align: left;
+                    margin: 0 .getRem(94)[@return] .getRem(8)[@return] 0;
+                    color: #848484;
+                }
+
+            }
+
+            a {
+                width: .getRem(34)[@return];
+                height: .getRem(34)[@return];
+                margin: .getRem(66)[@return] .getRem(20)[@return] .getRem(56)[@return] .getRem(0)[@return];
+
+                i {
+                    font-size: .getRem(34)[@return];
+                    color: #C3C3C5;
+
+                }
+            }
+        }
+    }
+
+}
+
+
+//.getRem()[@return];

@@ -1,0 +1,288 @@
+body {
+  background: #f2f2f2 url(../img/head-bg.png) no-repeat;
+  background-size: contain;
+  padding: 6.08rem 0.42666667rem 0.42666667rem 0.42666667rem;
+  font-family: PingFangSC;
+}
+.img-size {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+}
+.page-container .head-container {
+  padding: 0.26666667rem 0.4rem 0.38666667rem 0.48rem;
+  width: 9.14666667rem;
+  background-color: #fff;
+  border-radius: 0.21333333rem;
+}
+.page-container .head-container .user-container .avatar {
+  width: 1.06666667rem;
+  margin-right: 0.24rem;
+}
+.page-container .head-container .user-container .user-name {
+  font-size: 0.42666667rem;
+  color: #000000;
+}
+.page-container .head-container .user-container .level-container {
+  width: 1.92rem;
+  border: 0.01333333rem solid #FD661D;
+  border-radius: 0.37333333rem;
+  padding: 0.13333333rem 0.32rem;
+}
+.page-container .head-container .user-container .level-container span {
+  font-size: 0.32rem;
+  color: #FD661D;
+}
+.page-container .head-container .exp-contaienr {
+  width: 8.29333333rem;
+  height: 0.10666667rem;
+  background-color: #ccc;
+  border-radius: 0.53333333rem;
+  margin-top: 0.45333333rem;
+}
+.page-container .head-container .exp-contaienr .exp {
+  width: 20%;
+  height: 100%;
+  background-color: #FD661D;
+}
+.page-container .head-container .exp-info .exp-info-num {
+  font-size: 0.32rem;
+  color: #000000;
+  margin-top: 0.18666667rem;
+  margin-right: 2.2rem;
+}
+.page-container .head-container .exp-info .exp-info-desc {
+  font-size: 0.29333333rem;
+  color: #808080;
+  margin-top: 0.24rem;
+}
+.page-container .body-container {
+  width: 9.14666667rem;
+}
+.page-container .body-container .list-one {
+  padding: 0.4rem 0.82666667rem;
+  margin-top: 0.42666667rem;
+  border-radius: 0.21333333rem;
+  background-color: #fff;
+}
+.page-container .body-container .list-one .item-container {
+  border-right: 0.02666667rem solid #f5f5f5;
+}
+.page-container .body-container .list-one .item-container .desc {
+  width: 3.01333333rem;
+  margin-top: 0.2rem;
+  font-size: 0.37333333rem;
+  text-align: center;
+}
+.page-container .body-container .list-two {
+  padding: 0.4rem 0.82666667rem;
+  margin-top: 0.48rem;
+  border-radius: 0.21333333rem;
+  background-color: #fff;
+}
+.page-container .body-container .list-two .item-container .content {
+  margin-left: 0.48rem;
+}
+.page-container .body-container .list-two .item-container .content .title {
+  width: 1.70666667rem;
+  font-size: 0.42666667rem;
+  text-align: center;
+  margin-bottom: 0.08rem;
+}
+.page-container .body-container .list-two .item-container .content .desc {
+  width: 6.02666667rem;
+  font-size: 0.29333333rem;
+  color: #7f7f7f;
+}
+.page-container .body-container .list-two .item-container .arrow {
+  width: 0.2012rem;
+  height: 0.35453333rem;
+}
+.page-container .body-container .list-three {
+  position: relative;
+  margin-top: 0.42666667rem;
+  padding: 0.34666667rem 0.4rem 0.28666667rem 0.42666667rem;
+  width: 9.14666667rem;
+  height: 2.50666667rem;
+  border-radius: 0.21333333rem;
+  background-color: #FFBA00;
+  background-position: right top;
+}
+.page-container .body-container .list-three::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  z-index: 1;
+}
+.page-container .body-container .list-three .item-container .container .main-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: Alimama ShuHeiTi;
+}
+.page-container .body-container .list-three .item-container .container .desc {
+  font-size: 0.42666667rem;
+  font-weight: 400;
+  margin-top: 0.18666667rem;
+  font-family: Alimama ShuHeiTi;
+}
+.page-container .body-container .list-three .item-container .count {
+  font-size: 0.37333333rem;
+  margin-left: 3.33333333rem;
+  margin-top: 0.71333333rem;
+}
+.page-container .body-container .list-three .item-container .count strong {
+  font-size: 0.64rem;
+}
+.page-container .body-container .list-three .item-container .arrow-new {
+  width: 0.13333333rem;
+  height: 0.26666667rem;
+  border-radius: 0.01333333rem;
+  margin-left: 0.34666667rem;
+  margin-top: 1rem;
+}
+.page-container .body-container .list-four {
+  width: 9.14666667rem;
+  margin-top: 0.33333333rem;
+  border-radius: 0.21333333rem;
+  background: url(../img/bar.png) no-repeat;
+  background-size: cover;
+}
+.page-container .body-container .list-four .title-container {
+  margin: 0.9032rem 0.8296rem 7.87013333rem 0.50373333rem;
+}
+.page-container .body-container .list-four .title-container .title {
+  font-size: 0.74666667rem;
+  font-family: 思源黑体;
+  font-weight: 700;
+  color: #fff;
+}
+.page-container .body-container .list-four .title-container .desc {
+  margin-top: 0.66666667rem;
+  font-size: 0.58666667rem;
+  color: #fff;
+}
+.page-container .body-container .list-four .jump-container {
+  margin-bottom: 0.53333333rem;
+}
+.page-container .body-container .list-four .jump-container .jump {
+  width: 1.78666667rem;
+  height: 0.05333333rem;
+  background-color: #fff;
+  opacity: 0.6;
+  margin: 0 0.10666667rem;
+  cursor: pointer;
+}
+.page-container .body-container .list-four .jump-container .jump:first-child {
+  opacity: 1;
+}
+.page-container .body-container .list-four .jump-container .jump:hover {
+  opacity: 1;
+}
+.page-container .body-container .list-five {
+  margin-top: 0.84666667rem;
+  width: 9.09333333rem;
+  border-radius: 0.21333333rem;
+  padding: 0.32rem 0.58666667rem 0.32rem 0.48rem;
+  background-color: #fff;
+}
+.page-container .body-container .list-five .main-container {
+  width: 5.54666667rem;
+}
+.page-container .body-container .list-five .main-container .title {
+  font-size: 0.42666667rem;
+}
+.page-container .body-container .list-five .main-container .title .address-arrow {
+  width: 0.34666667rem;
+  height: 0.34666667rem;
+}
+.page-container .body-container .list-five .main-container .desc {
+  margin-top: 0.2rem;
+  font-size: 0.32rem;
+}
+.page-container .body-container .list-five img {
+  width: 1.86666667rem;
+  height: 1.6rem;
+}
+.page-container .body-container .list-six {
+  margin-top: 0.43333333rem;
+  width: 9.14666667rem;
+  border-radius: 0.21333333rem;
+  padding: 0.43333333rem 0.4rem 0.49333333rem 0.42666667rem;
+  background-color: #fff;
+}
+.page-container .body-container .list-six .title {
+  font-size: 0.37333333rem;
+}
+.page-container .body-container .list-six .title img {
+  width: 0.64rem;
+  height: 0.64rem;
+  margin-right: 0.2844rem;
+  vertical-align: sub;
+}
+.page-container .body-container .list-six .look-all {
+  font-size: 0.37333333rem;
+  color: #6d6d6d6d;
+}
+.page-container .body-container .list-six .look-all img {
+  margin-left: 0.19333333rem;
+  width: 0.13333333rem;
+  height: 0.26666667rem;
+}
+.page-container .body-container .list-seven {
+  margin-top: 0.43333333rem;
+  width: 9.14666667rem;
+  border-radius: 0.21333333rem;
+  padding: 0.43333333rem 0.4rem 0.49333333rem 0.53333333rem;
+  background-color: #fff;
+}
+.page-container .body-container .list-seven .title {
+  font-size: 0.37333333rem;
+}
+.page-container .body-container .list-seven .title img {
+  width: 0.32rem;
+  height: 0.4rem;
+  margin-right: 0.2rem;
+  vertical-align: sub;
+}
+.page-container .body-container .list-seven .look-all {
+  font-size: 0.37333333rem;
+  color: #6d6d6d6d;
+}
+.page-container .body-container .list-seven .look-all img {
+  margin-left: 0.19333333rem;
+  width: 0.13333333rem;
+  height: 0.26666667rem;
+}
+.foot-container {
+  width: 9.14666667rem;
+  border-radius: 0.21333333rem;
+  background-color: #fff;
+  margin-top: 0.42666667rem;
+}
+.foot-container .foot-title {
+  width: 8.16rem;
+  padding-top: 0.42666667rem;
+  font-size: 0.48rem;
+  margin-left: 0.48rem;
+  border-bottom: 0.01333333rem solid #9b9b9b;
+}
+.foot-container .title {
+  margin: 0.29333333rem 0rem;
+}
+.foot-container .foot-desc {
+  padding: 0 0.45333333rem 0.88rem 0.50666667rem;
+  width: 8.18666667rem;
+  font-size: 0.32rem;
+  line-height: 0.50666667rem;
+  color: #9b9b9b;
+}
+.foot-container img {
+  width: 8.18666667rem;
+  height: 6.56rem;
+  margin: 0 0.45333333rem 0.56rem 0.50666667rem;
+}

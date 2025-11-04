@@ -1,0 +1,606 @@
+html,body {
+    font-size: 14px;
+    height: 100%;
+    /* background-color: rgb(245, 245, 245); */
+}
+
+/* 页面总体 */
+.page-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* 顶部边框 */
+.head-container {
+    background-color: #333;
+    height: 53px;
+}
+
+.page-container .head-container .ul-wrap {
+    height: 53px;
+    line-height: 53px;
+    float: right;
+    margin-right: 255px;
+
+}
+
+.page-container .ul-wrap li {
+    margin-right: 10px;
+    float: left;
+    color: rgb(210, 210, 210);
+}
+
+.page-container .ul-wrap a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(210, 210, 210);
+}
+
+.page-container .ul-wrap a:hover {
+    color: rgb(220, 95, 45);
+
+}
+
+/*导航部分*/
+.logo-title {
+    display: none;
+}
+
+.page-container .nav-container {
+    height: 134px;
+    line-height: 134px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 200px;
+
+
+
+}
+
+.page-container .list-container {
+    display: inline-block;
+    position: relative;
+    right: 162px;
+    /* float: left; */
+
+}
+
+.page-container .list-container li {
+    float: left;
+    margin-right: 48px;
+
+}
+
+.page-container .list-container a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(55, 55, 55);
+}
+
+.page-container .nav-container img {
+    float: left;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.nav-container .search-cart-container {
+    position: absolute;
+    right: 235px;
+    display: inline-block;
+    /* float: left; */
+
+}
+
+.nav-container .search-cart-container .search {
+    position: absolute;
+    color: rgb(214, 214, 214);
+}
+
+.nav-container .search-cart-container input {
+    padding-left: 20px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 110px;
+    outline: none;
+    border-bottom: 1px solid rgb(214, 214, 214);
+
+}
+
+/* placeholder设置 */
+.nav-container .search-cart-container input::placeholder {
+    color: rgb(214, 214, 214);
+}
+
+.nav-container .search-cart-container .cart {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.nav-container .search-cart-container .count {
+    font-size: 14px;
+    height: 16px;
+    width: 24px;
+    line-height: 14px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    left: -10px;
+    color: white;
+    background-color: rgb(220, 95, 45);
+}
+
+/*  主体部分*/
+
+/* 主导航部分 */
+.page-container .main-nav {
+    height: 500px;
+    padding: 0 200px;
+    position: relative;
+    background-image: url("../uploads/banner1.png");
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-color: rgb(245, 245, 245);
+}
+
+.page-container .main-nav .side-bar {
+    height: 500px;
+    width: 255px;
+    /* padding-left: 30px; */
+    /* padding-right: 17px; */
+    padding-top: 17px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(51, 51, 51, 0.53);
+}
+
+.page-container .main-nav .side-bar li {
+    padding: 15px 30px;
+
+}
+
+.page-container .main-nav .side-bar li:first-child {
+    margin-top: 0px;
+
+}
+
+.page-container .main-nav .side-bar a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
+
+.page-container .main-nav .side-bar .side-bar-title {
+    font-size: 16px;
+}
+
+.page-container .main-nav .side-bar .side-bar-desc {
+    margin-left: 17px;
+}
+
+.page-container .main-nav .side-bar .jump {
+    float: right;
+    margin-right: -15px;
+}
+
+.page-container .main-nav .point-jump {
+    position: absolute;
+    right: 257px;
+    bottom: 5px;
+    width: 105px;
+    height: 30px;
+    /* background-color: red; */
+}
+
+/* 这里的li被sidebar的li影响了 ,应该是我不小心把主体部分嵌套主导航了QAQ*/
+.page-container .main-nav .point-jump li {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-top: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.page-container .main-nav .point-jump li:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border: 5px solid rgb(194, 208, 190);
+}
+
+
+
+.page-container .body-container {
+    height: 2861px;
+    /* background-color: aqua; */
+}
+
+.shop-content-one,
+.shop-content-two,
+.shop-content-three,
+.shop-content-four,
+.shop-content-five {
+    height: 520px;
+    padding: 0 200px;
+
+}
+
+.shop-content-three {
+    margin-top: 60px;
+    background-color: rgb(245, 245, 245);
+}
+/* 第四个的容器 */
+.shop-content-four {
+    height: 725px;
+    margin-top: 15px;
+}
+
+.shop-content-five {
+    margin-top: 61px;
+}
+
+.shop_hd {
+
+    height: 112px;
+    line-height: 112px;
+}
+
+.shop-hd_start {
+
+    font-size: 30px;
+
+
+    color: rgb(32, 32, 32);
+}
+
+.shop-hd_desc {
+    margin-left: 37px;
+    color: rgb(116, 116, 116);
+}
+
+.shop-hd_more {
+    float: right;
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+    position: relative;
+    right: 50px;
+}
+
+/* 商品的图片、介绍、价格部分 */
+.shop_bd {
+    height: 408px;
+    /* 
+    background-color: blueviolet; */
+}
+
+.shop-bd_desc {
+    float: left;
+    margin-left: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(41, 40, 42);
+    background-color: rgb(238, 249, 245);
+    /* background-color: aquamarine; */
+}
+
+.shop-bd_desc:first-child {
+    margin-left: 0px;
+}
+
+.shop-bd_desc .trade-name {
+    margin-top: 25px;
+}
+
+.shop-bd_desc .trade-price {
+    margin-top: 20px;
+    color: rgb(160, 0, 0);
+}
+
+.shop-bd_desc .trade-desc {
+    margin-top: 20px;
+    color: rgb(194, 194, 194);
+}
+
+.icon-prev,
+.icon-next {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(194, 194, 194, 0.4);
+
+}
+
+.icon-prev {
+    margin-right: 15px;
+}
+
+.icon-new {
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 50px;
+}
+
+.shop-bd-three_desc {
+    float: left;
+    margin-left: 4px;
+}
+
+/* 第四个的hd部分 */
+.shop-hd-four_desc {
+    float: right;
+    margin-right: 66px;
+}
+
+.shop-hd-four_desc li {
+    margin-left: 20px;
+    height: 14px;
+    line-height: 14px;
+    padding: 2px 5px;
+}
+
+
+/* 第四个的bd部分 */
+.frash-left {
+    float: left;
+}
+
+.trade-desc_four {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 18px;
+    color: rgb(41, 41, 41);
+}
+
+.trade-price_four {
+    font-size: 21px;
+    margin-top: 17px;
+    color: rgb(160, 0, 0);
+}
+
+.shop-bd-four_desc {
+    position: relative;
+    top: -45px;
+    float: left;
+    margin-top: 44px;
+    margin-left: 43px;
+}
+
+.first-img {
+    width: 200px;
+    gap: 180px;
+}
+
+
+/* 第五个 */
+
+.trade-five_title {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -74px;
+    left: -66px;
+}
+
+.trade-five_desc {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: -58px;
+    left: -114px;
+}
+
+.trade-five_price {
+    width: 74px;
+    height: 20px;
+    padding: 2px 5px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    bottom: 100px;
+    left: 307px;
+    color: rgb(160, 0, 0);
+    background-color: white;
+}
+
+.love-icon {
+    position: relative;
+    right: 110px;
+    top: -40px;
+    color: rgb(170, 32, 20);
+}
+
+.look-icon {
+    position: relative;
+    right: 80px;
+    top: -40px;
+}
+
+.message-icon {
+    position: relative;
+    right: -115px;
+    top: -40px;
+}
+
+.count {
+    font-size: 15px;
+    color: #333;
+
+}
+
+.sjop-bd_desc .img img {
+    display: inline-block;
+    width: 405px;
+    height: 288px;
+}
+
+.img-box {
+    width: 405px;
+    height: 288px;
+    box-shadow: inset 0 -55px 30px -20px rgba(0, 0, 0, 0.7);
+}
+
+.img-box_one {
+    background: url("../uploads/topic1.png") no-repeat;
+}
+
+.img-box_two {
+    background: url("../uploads/topic2.png") no-repeat;
+}
+
+.img-box_three {
+    background: url("../uploads/topic3.png") no-repeat;
+}
+
+
+/* 底部部分 */
+.foot-container {
+    padding: 0 200px;
+    /* height: 578px; */
+    margin-top: 60px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+/* 服务板块 */
+
+/* 雪碧图 */
+.icon {
+    background: url("../img/sprite.png") no-repeat;
+    display: inline-block;
+}
+
+.icon-service_one {
+    width: 58px;
+    height: 58px;
+    background-position: 0 0;
+}
+
+.icon-service_two {
+    width: 58px;
+    height: 58px;
+    background-position: 0 -58px;
+}
+
+.icon-service_three {
+    width: 58px;
+    height: 58px;
+    background-position: 0 -116px;
+}
+
+.icon-service_four {
+    width: 58px;
+    height: 58px;
+    background-position: 0 -174px;
+}
+
+
+
+.foot-container .foot_service {
+    height: 177px;
+    /* background-color: burlywood; */
+
+}
+
+
+.foot-container .service_container {
+    line-height: 177px;
+    text-align: center;
+    position: relative;
+    right: 42px;
+}
+
+.foot-container .service_container p,
+i {
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+.foot-container .service_container p {
+    margin-left: 95px;
+}
+
+.foot-container .service_container i {
+    padding-right: 22px;
+}
+
+
+
+
+
+
+/* 帮助板块 */
+
+.foot-container .foot_help {
+    height: 271px;
+    padding: 66px 0;
+    /* background-color: cadetblue; */
+
+}
+
+
+.foot-container .help_container {
+    height: 100%;
+    /* background-color:thistle; */
+}
+
+.help_container .help-item {
+    font-size: 16px;
+    margin-right: 86px;
+    line-height: 56px;
+    color: rgb(152, 152, 152);
+}
+
+.help_container .help-item p:first-child {
+    font-size: 18px;
+    line-height: 96px;
+    color: #333;
+
+}
+
+.help-item_new {
+    font-size: 16px;
+    line-height: 46px;
+    color: rgb(152, 152, 152);
+    margin-right: 60px;
+    text-align: center;
+}
+
+.help-item_new img {
+    width: 114px;
+    height: 114px;
+}
+
+.help-item_new:last-child {
+    position: relative;
+    bottom: 182px;
+    left: 1129px;
+}
+
+/* 版权板块 */
+
+.foot-container .foot_copyright {
+    height: 130px;
+    /* background-color: violet; */
+    text-align: center;
+}
+
+.foot_copyright .copyright_container .copyright_item a{
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 54px;
+    color: rgb(152, 152, 152);
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.foot_copyright .copyright_container .copyright_item span{
+    color: rgb(152, 152, 152);
+}
+
+.copyright_item_new{
+    font-size: 20px;
+    line-height:56px ;
+    color: rgb(152, 152, 152);
+}
