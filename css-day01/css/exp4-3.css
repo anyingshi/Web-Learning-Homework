@@ -1,0 +1,17 @@
+.main-content {
+text-align: center;
+}
+.product-name {
+color: rgb(30, 30, 30);
+font-size: 28px;
+line-height: 20px;
+}
+.product-introduction {
+color: rgb(204, 204, 204);
+font-size: 22px;
+line-height: 35px;
+}
+.price {
+color: rgb(255, 165, 3);
+font-size: 26px;
+}
